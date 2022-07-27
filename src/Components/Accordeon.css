@@ -1,0 +1,48 @@
+
+.accord{
+    max-width: 400px;
+    height: auto;
+    margin: 100px auto 0;
+}
+
+.accord-visible{
+    background-color: rgb(11, 49, 100);
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 17px;
+}
+.accord-visible img{
+    width: 20px;
+    margin: 10px;
+    
+}
+.accord-visible h2{
+    font-size: 20px;
+}
+.accord-toggle{
+    font-size: 18px;
+    opacity: 0;
+    background: rgb(245, 245, 245);
+    transition: 
+    opacity 0.4s ease-in-out,
+    height 0.4s 0.4s ease-in-out;
+}
+.animated{
+    opacity: 1;
+    transition: height 0.4s ease-in-out,
+    opacity 0.4s 0.4s ease-in-out;
+}
+
+.accord-toggle p{
+    margin: 0;
+    padding: 22px 15px;
+    pointer-events: none;
+    background: #eeeaea;
+}
+
+h2{
+    text-align: center;
+}

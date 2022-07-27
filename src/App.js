@@ -1,11 +1,16 @@
 import './App.css';
-import Modal from "./Components/Modal/Modal"
+import Modal from "./Components/Modal"
+import Accordeon from "./Components/Accordeon"
+import Navbar from './Components/Navbar';
 
 function App() {
 
   return (
     <>
-    <Modal />
+    {/* <Modal /> */}
+    {/* <Accordeon /> */}
+    <Navbar />
+
 
 
 
